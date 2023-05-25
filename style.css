@@ -1,0 +1,144 @@
+body{
+	background-color: #F4F4F4;
+	color: #333333;
+	font-family: 'Poppins', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1{
+color: #FFFFFF;
+font-size: : 16px;
+font-weight: 500;
+
+}
+
+h2{
+	color: rgba(59,86,153,1);
+	font-size: 24px;
+	font-weight: 500;
+}
+
+a{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #333333;
+	font-weight: 500;
+
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+}
+
+
+.card-white {
+	background-color: #F4F4F4;
+	padding: 20px;
+    margin: 20px 0px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    text-align: left;
+    justify-content: left;
+}
+
+.img-circle {
+	border-radius: 50%;
+	text-align: center;
+}
+
+.btn-primary {
+	font-weight: 400;
+    background-color: #FA8FC6;
+    color: white;
+    padding: 9px 26px; 
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-primary:hover {
+	background-color: #E58FC6;
+}
+
+.btn-secondary {
+	font-weight: 400;
+    color: #FA8FC6;
+    padding: 9px 26px; 
+    border-radius: 4px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    border: solid;
+    border-color: #FA8FC6;
+
+}
+
+.btn-secondary:hover {
+	background-color: white;
+}
+.list-inligne {
+	list-style: : none;
+	padding-left: 0px;
+}
+
+.list-inligne li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inligne i {
+	font-size: 50px;
+	color : #FA8FC6;
+}
+
+.list-inligne i:hover {
+	font-size: 50px;
+	color : #E58FC6;
+}
+
+#introduction p {
+margin-bottom: 30px;
+}
+
+#introduction {
+	margin: 0px;
+	padding: 32px;
+	color: #FFFFFF;
+	background-image: linear-gradient(to bottom, rgba(250,141,198,0.5), rgba(59,86,153,0.8)),
+  url('images/profile_V2.jpg');
+  background-position: center;
+  text-align: center;
+}
+
+.CTA {
+	display: flex;
+}
+
+.btn-CTA {
+	flex-grow: 1;
+	margin: 0 5px;
+	text-align: center;
+}
+
+.follow {
+	text-align: center;
+}
+
